@@ -5,7 +5,7 @@ import net.minecraftforge.event.world.ExplosionEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod(modid = Notnt.MOD_ID, name = Notnt.MOD_NAME, version = Notnt.VERSION)
+@Mod(modid = Notnt.MOD_ID, name = Notnt.MOD_NAME, version = Notnt.VERSION, acceptableRemoteVersions = "*")
 public class Notnt {
 
     public static final String MOD_ID = "notnt";
